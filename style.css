@@ -46,7 +46,7 @@ html {
 }
 
 #banner {
-    background-image: url('/Images/Banner\ Bg.jpg');
+    background-image: url('./Images/Banner\ Bg.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ html {
     }
     
     #banner {
-        background-image: url('/Images/Banner\ Bg.jpg');
+        background-image: url('./Images/Banner\ Bg.jpg');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
