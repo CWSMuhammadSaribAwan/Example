@@ -1,0 +1,235 @@
+.whatsapp-icon {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
+
+.whatsapp-btn {
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Kablammo', cursive;
+}
+
+.whatsapp-btn:hover {
+    color: red;
+}
+
+.sec {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.sec-h2 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 0px;
+}
+
+.sec-h3 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+#banner {
+    background-image: url('/Images/Banner\ Bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+#banner::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.inside-banner {
+}
+
+.banner-title {
+    color: red;
+    text-shadow: 3px 3px black;
+    font-size: 3rem;
+    font-family: 'Kablammo', cursive;
+}
+
+.banner-title-2 {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Kablammo', cursive;
+}
+
+.banner-btn {
+    color: white;
+    background-color: sandybrown;
+    border-radius: 20px;
+    font-family: 'Kablammo', cursive;
+}
+
+.banner-btn:hover {
+    color: black;
+}
+
+#section1 {
+    background-color: black;
+}
+
+.section1-para {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 50px;
+    padding-top: 20px;
+}
+
+.section1-btn {
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section1-btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+.sec-h3-2 {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 87px;
+    padding-bottom: 5px;
+}
+
+#section2 {
+    background-color: black;
+}
+
+.section2-fig a {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.section2-fig a:hover {
+    color: red;
+}
+
+#section3 {
+    background-color: black;
+}
+
+.section3-fig a {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.section3-fig a:hover {
+    color: red;
+}
+
+#footer {
+    font-size: 30px;
+    font-family: 'Kablammo', cursive;
+    background-color: white;
+    text-align: center;
+}
+
+@media (min-width:768px) and (max-width:992px) {
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    .whatsapp-icon {
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+    }
+    
+    .whatsapp-btn {
+        font-size: 0;
+    }
+    #header {
+        background-color: black;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    #banner {
+        background-image: url('/Images/Banner\ Bg.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        position: relative;
+    }
+    
+    #banner::before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .inside-banner {
+        padding-top: 0px;
+        padding-bottom: 20px;
+        border: 5px solid red;
+    }
+    
+    .banner-title {
+        color: red;
+        text-shadow: 3px 3px black;
+        font-size: 2.5rem;
+        align-items: center;
+        font-family: 'Kablammo', cursive;
+    }
+    
+    .banner-title-2 {
+        color: white;
+        font-size: 2.5rem;
+        font-family: 'Kablammo', cursive;
+    }
+    
+    .banner-btn {
+        color: white;
+        background-color: sandybrown;
+        border-radius: 20px;
+        font-family: 'Kablammo', cursive;
+    }
+    
+    .banner-btn:hover {
+        color: black;
+    }
+}
